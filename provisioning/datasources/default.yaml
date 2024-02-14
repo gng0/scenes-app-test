@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+  - name: gdev-testdata
+    isDefault: false
+    type: testdata
+  - name: Tempo
+    type: tempo
+    url: http://tempo:3200
+    isDefault: false
+    uid: Tempo
